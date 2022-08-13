@@ -16,7 +16,9 @@ const Stack = createStackNavigator();
 export default function App() {
 
   return (
+     //@ts-ignore
     <PaperProvider>
+     {/* @ts-ignore */}
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
